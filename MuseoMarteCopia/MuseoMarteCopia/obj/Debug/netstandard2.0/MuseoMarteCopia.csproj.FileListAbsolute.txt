@@ -1,0 +1,12 @@
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\bin\Debug\netstandard2.0\MuseoMarteCopia.deps.json
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\bin\Debug\netstandard2.0\MuseoMarteCopia.dll
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\bin\Debug\netstandard2.0\MuseoMarteCopia.pdb
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\obj\Debug\netstandard2.0\MuseoMarteCopia.csprojResolveAssemblyReference.cache
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\obj\Debug\netstandard2.0\MuseoMarteCopia.csproj.CoreCompileInputs.cache
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\obj\Debug\netstandard2.0\MuseoMarteCopia.App.xaml.g.cs
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\obj\Debug\netstandard2.0\MuseoMarteCopia.MainPage.xaml.g.cs
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\obj\Debug\netstandard2.0\MuseoMarteCopia.AssemblyInfoInputs.cache
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\obj\Debug\netstandard2.0\MuseoMarteCopia.AssemblyInfo.cs
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\obj\Debug\netstandard2.0\MuseoMarteCopia.dll
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\obj\Debug\netstandard2.0\MuseoMarteCopia.pdb
+C:\Users\DK-Ragnar\source\repos\MuseoMarteCopia\MuseoMarteCopia\MuseoMarteCopia\obj\Debug\netstandard2.0\MuseoMarteCopia.Page1.xaml.g.cs

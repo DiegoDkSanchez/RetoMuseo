@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MuseoMarteCopia"
+             x:Class="MuseoMarteCopia.MainPage"
+             BackgroundColor="#191919"
+             Title="Museo Marte">
+
+    <ContentPage.Content>
+
+        <Grid RowSpacing="0" ColumnSpacing="0">
+
+            <!--Estructura del Grid-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+
+            <!--Primer Boton-->            
+            <Image 
+                Source="bibliographies.png" 
+                Grid.Row="0" 
+                Grid.Column="0"/>
+
+            <StackLayout 
+                VerticalOptions="Center"
+                Margin="10,0"
+                Grid.Row="0" 
+                Grid.Column="0">
+                <Label Text="Descubre las novedades del Museo"
+                       TextColor="White"
+                       Margin="10,0"
+                       FontSize="12"
+                       Opacity="0.7"/>
+                <Label Text="Noticias"
+                       Margin="10,-10"
+                       TextColor="White"
+                       FontSize="30"/>
+            </StackLayout>
+            <BoxView Color="White" Opacity="0" x:Name="imagen1" />
+
+            <!--Segundo Boton-->
+            <Image 
+                Source="about.png" 
+                Grid.Row="1" 
+                Grid.Column="0"/>
+
+            <StackLayout 
+                VerticalOptions="Center"
+                Margin="10,0"
+                Grid.Row="1" 
+                Grid.Column="0">
+                <Label Text="Obten mas información de los autores"
+                       TextColor="White"
+                       Margin="10,0"
+                       FontSize="12"
+                       Opacity="0.7"/>
+                <Label Text="Biografías"
+                       TextColor="White"
+                       Margin="10,-10"
+                       FontSize="30"/>
+            </StackLayout>
+
+            <!--Tercer Boton-->
+            <Image 
+                Source="gallery.png" 
+                Grid.Row="2" 
+                Grid.Column="0"/>
+
+            <StackLayout 
+                VerticalOptions="Center"
+                Margin="10,0"
+                Grid.Row="2" 
+                Grid.Column="0">
+                <Label Text="Disfruta de este tour interactivo"
+                       TextColor="White"
+                       Margin="10,0"
+                       FontSize="12"
+                       Opacity="0.7"/>
+                <Label Text="Iniciar Recorrido"
+                       Margin="10,-10"
+                       TextColor="White"
+                       FontSize="30"/>
+            </StackLayout>
+
+            <!--Cuarto Boton-->
+            <Image 
+                Source="routes.png" 
+                Grid.Row="3" 
+                Grid.Column="0"/>
+
+            <StackLayout 
+                VerticalOptions="Center"
+                Margin="10,0"
+                Grid.Row="3" 
+                Grid.Column="0">
+                <Label Text="Vista en realidad aumentada"
+                       TextColor="White"
+                       Margin="10,0"
+                       FontSize="12"
+                       Opacity="0.7"/>
+                <Label Text="Vistas AR"
+                       Margin="10,-10"
+                       TextColor="White"
+                       FontSize="30"/>
+            </StackLayout>
+
+
+            <Image 
+                Source="about.png" 
+                Grid.Row="4" 
+                Grid.Column="0"/>
+
+        </Grid>
+
+    </ContentPage.Content>
+
+</ContentPage>
