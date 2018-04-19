@@ -4,9 +4,24 @@
              x:Class="MuseoMarteCopia.Page1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Noticias:"
+                   FontSize="34"
+                   HorizontalOptions="CenterAndExpand" />
+            
+            <ListView x:Name="ListViewPublicaciones">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Spacing="5">
+                                    <Image Source="{Binding Img}"/>
+                                    <Label Text="{Binding Descripcion}"/>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
